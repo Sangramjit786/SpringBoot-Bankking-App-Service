@@ -5,11 +5,21 @@ import net.javaguides.banking.entity.Account;
 
 public class AccountMapper {
 
-    public static Account mapToAccount(AccountDto accountDto){
+    /*public static Account mapToAccount(AccountDto accountDto){
         Account account = new Account(
                 accountDto.getId(),
                 accountDto.getAccountHolderName(),
                 accountDto.getBalance()
+        );
+
+        return account;
+    }*/
+
+    public static Account mapToAccount(AccountDto accountDto){
+        Account account = new Account(
+                accountDto.id(),
+                accountDto.accountHolderName(),
+                accountDto.balance()
         );
 
         return account;
