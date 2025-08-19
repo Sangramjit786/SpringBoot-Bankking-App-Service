@@ -1,6 +1,24 @@
 # Simple Banking App - Spring Boot REST API
 
+This repository ([SpringBoot-Bankking-App-Service](https://github.com/Sangramjit786/SpringBoot-Bankking-App-Service.git)) demonstrates the development of a **simple banking application** built with **Spring Boot**.  
+The project focuses on learning and applying **REST API concepts** in a microservice-like setup, while also experimenting with modern Java features like **Java Records** instead of Lombok for Data Transfer Objects (DTOs).  
+
 A simple banking application built with Spring Boot that demonstrates core REST API concepts for account management. This project serves as an educational example for understanding how to build RESTful web services with Spring Boot.
+
+---
+
+### Simple Banking App with REST APIs
+- Built a **Spring Boot project** that simulates basic banking operations (e.g., accounts, transactions, customers).  
+- Designed RESTful endpoints (`@RestController`) to expose the core functionalities.  
+- Provides a **hands-on learning experience** for understanding REST concepts like:
+  - HTTP verbs (`GET`, `POST`, `PUT`, `DELETE`)  
+  - Request/response handling  
+  - Validation and error responses  
+  - Separation of layers (Controller, Service, Repository, DTOs)  
+
+This ensures developers can **strengthen their REST fundamentals** while working on a real-world inspired project.
+
+---
 
 ## 🚀 Key Features
 
@@ -13,7 +31,7 @@ A simple banking application built with Spring Boot that demonstrates core REST 
 
 ## 🛠 Technical Stack
 
-- **Java 17** (or later)
+- **Java 21** (or later)
 - **Spring Boot 3.x**
 - **Spring Data JPA**
 - **H2 Database**
