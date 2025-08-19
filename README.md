@@ -20,6 +20,17 @@ This ensures developers can **strengthen their REST fundamentals** while working
 
 ---
 
+### Using Java Records Instead of Lombok
+- Traditionally, projects use **Lombok** annotations (`@Getter`, `@Setter`, `@Builder`, etc.) to reduce boilerplate code in DTOs and entities.  
+- In this project, **Java Records (introduced in Java 14, stable in Java 16+)** are used for **DTO classes** instead of Lombok.  
+
+#### Why Java Records?
+- **Concise syntax**: A record automatically provides `getter` methods, `equals()`, `hashCode()`, and `toString()`.  
+- **Immutable data carrier**: Perfect for DTOs, which should not be modified after creation.  
+- **No extra dependencies**: Unlike Lombok, records are part of the JDK.
+
+---
+
 ## 🚀 Key Features
 
 - **RESTful API Endpoints** for account operations
