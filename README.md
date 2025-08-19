@@ -31,6 +31,24 @@ This ensures developers can **strengthen their REST fundamentals** while working
 
 ---
 
+#### Example:
+```java
+// Traditional DTO with Lombok
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class AccountDTO {
+    private String accountId;
+    private String accountType;
+    private double balance;
+}
+
+// DTO using Java Record
+public record AccountDTO(String accountId, String accountType, double balance) {}
+```
+
+---
+
 ## 🚀 Key Features
 
 - **RESTful API Endpoints** for account operations
